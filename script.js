@@ -1,6 +1,6 @@
-let secretNumber=(Math.random()*100)+1;
+let secretNumber= Math.floor(Math.random()*100)+1;
 let tries=0;
-function checkGuess(){
+function checkNumber(){
     let guess=Number(document.getElementById("guess").value);
     let message=document.getElementById("message");
     let attemptDisplay=document.getElementById("attempts");
@@ -23,6 +23,11 @@ function checkGuess(){
 }
 
     
+
+
+
+
+
 
 
 
